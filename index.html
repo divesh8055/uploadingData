@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Details</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>Add Student Data</h1>
+      <div>
+        <label for="roll">Roll No.</label>
+        <input type="number" min="1" id="roll" name="roll" />
+      </div>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="marks">Marks</label>
+        <input type="number" min="0" id="marks" name="marks" />
+      </div>
+      <button type="submit" class="add">Add Details</button>
+      <button type="submit" class="reset">Reset Data</button>
+    </form>
+
+    <div id="items"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
